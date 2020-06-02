@@ -42,12 +42,12 @@ body{
     margin-bottom: 30px;
 }
 
-@media screen (max-width: 460px) {
+@media screen and (max-width: 460px) {
     h1 {
       font-size: 3.5rem;
       line-height: 1.2;
     }
-  }
+}
  
 
 .topic p{
@@ -120,4 +120,17 @@ body{
     padding-bottom: 40px;
     text-align: center;
     word-spacing: 1px;
+}
+
+.copy a {
+    transition: 3s ease;
+}
+
+.copy a:hover {
+    text-decoration: none;
+}
+
+.author {
+    color: orangered;
+    
 }
